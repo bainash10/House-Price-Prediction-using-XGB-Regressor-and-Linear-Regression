@@ -1,4 +1,4 @@
-# House Price Prediction Using XGB Regressor & Linear Regression
+# House Price Prediction Using XGBoost & Linear Regression
 
 This machine learning project focuses on predicting house prices using a dataset containing various property-related and demographic features. The goal is to build regression models that can accurately estimate housing prices based on factors like location, population, income, and proximity to the ocean. Two models — **XGBoost** and **Linear Regression** — were used and compared to identify the more effective solution.
 
@@ -44,14 +44,14 @@ The dataset includes the following features:
 | **R² Score** | 0.8242           | 0.6401              |
 | **MAE**      | 32,445.78        | 51,372.67           |
 | **MSE**      | 2,403,489,962.70 | 4,921,881,237.63    |
-| **RMSE**     | 49,025.40        | 49,025.40           |
+| **RMSE**     | 49,025.40        | 70,156.12           |
 
 ---
 
 ## Summary of Key Insights
 - **XGBoost** achieved a higher **R² score**, meaning it explains more of the variance in house prices.
 - **XGBoost** also had lower **MAE** and **MSE**, indicating more accurate and stable predictions.
-- Although both models share the same **RMSE**, XGBoost clearly outperformed Linear Regression overall.
+- **XGBoost** had a significantly lower **RMSE**, confirming its superior performance in this task.
 
 ---
 
